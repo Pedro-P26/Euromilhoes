@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 
     function getNewBet() {
-        fetch('https://euromilhoes-ap45.onrender.com/render')
+        fetch('https://euromilhoes-ap45.onrender.com/euro')
             .then((response) => response.json())
             .then (bet => {
                 //debugger;
